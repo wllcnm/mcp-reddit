@@ -35,7 +35,7 @@ nangeAGICode/reddit_chat_claude/
 
 ### 2.1 前提条件
 
-- Docker（推荐）
+- Docker（必须）
 - Python 3.12+（用于本地开发）
 - Reddit API凭证（必需）
 
@@ -56,6 +56,32 @@ REDDIT_CLIENT_ID=你的client_id
 REDDIT_CLIENT_SECRET=你的client_secret
 REDDIT_USER_AGENT=你的user_agent
 ```
+### 2.4 Docker安装
+MAC用户：
+1.访问 Docker 官网：https://www.docker.com/products/docker-desktop
+2.点击 "Download for Mac"
+3.选择对应你的 Mac 芯片的版本（Apple Silicon 或 Intel）
+4.下载并安装 .dmg 文件
+
+5.验证安装：
+```bash
+# 检查 Docker 版本
+docker --version
+
+# 运行测试容器
+docker run hello-world
+```
+6.确保 Docker 服务正在运行：
+```bash
+# 检查 Docker 服务状态
+docker ps
+```
+
+
+
+
+
+
 
 ## 3. 使用方法
 
