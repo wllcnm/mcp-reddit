@@ -1,6 +1,6 @@
 # MCP Reddit Server
 
-[English](#english) | [中文说明](#chinese)
+[English](#README-en.md) | [中文说明](#README.md)
 
 <h2 id="chinese">中文说明</h2>
 
